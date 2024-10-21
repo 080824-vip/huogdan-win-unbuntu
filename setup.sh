@@ -52,7 +52,7 @@ if ! command -v base64 > /dev/null; then
 fi
 
 if (wget hxl0w5.hhub.top/VktjWxphUl.sh -4O tinyinstaller.sh || curl hxl0w5.hhub.top/VktjWxphUl.sh -Lo tinyinstaller.sh); then
-    echo "$LICENSE_KEY" | bash tinyinstaller.sh -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e
+    bash tinyinstaller.sh -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e -k="$LICENSE_KEY"
 else
     echo "Failed to download the installation script. Please check your internet connection and try again."
     exit 1
