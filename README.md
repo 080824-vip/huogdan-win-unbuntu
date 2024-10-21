@@ -18,20 +18,20 @@ Script này giúp bạn cài đặt các công cụ cần thiết và tải xu�
    sudo ./setup.sh
    ```
 
-5. Script sẽ tự động kiểm tra số lượt cài đặt còn lại, sau đó tải xuống và chạy trình cài đặt TinyInstaller với license key đã được cung cấp.
+5. Script sẽ tự động kiểm tra thông tin giấy phép, sau đó tải xuống và chạy trình cài đặt TinyInstaller với license key đã được cung cấp.
 
 ## Lưu ý
 
 - Script này yêu cầu quyền root để chạy.
 - Đảm bảo bạn có kết nối internet ổn định trong quá trình chạy script.
 - License key đã được tích hợp sẵn trong script và sẽ được tự động truyền vào TinyInstaller.
-- Script sẽ kiểm tra số lượt cài đặt còn lại trước khi tiến hành cài đặt.
+- Script sẽ hiển thị thông tin giấy phép trước khi tiến hành cài đặt.
+- Không có giới hạn số lần cài đặt.
 - Nếu gặp bất kỳ vấn đề nào, vui lòng kiểm tra các thông báo lỗi và đảm bảo rằng tất cả các điều kiện tiên quyết đều được đáp ứng.
 
 ## Xử lý lỗi
 
 - Nếu script không thể tải xuống TinyInstaller, hãy kiểm tra kết nối internet của bạn và thử lại.
-- Nếu bạn nhận được thông báo "You have run out of installations", có nghĩa là bạn đã sử dụng hết số lần cài đặt được phép. Vui lòng liên hệ với quản trị viên để được hỗ trợ và yêu cầu thêm lượt cài đặt.
 - Nếu quá trình cài đặt thất bại, hãy kiểm tra các thông báo lỗi được hiển thị và thử lại. Nếu vấn đề vẫn tiếp diễn, vui lòng liên hệ với quản trị viên để được hỗ trợ.
 - Nếu bạn gặp lỗi "Permission denied" khi chạy script, hãy đảm bảo rằng bạn đã cấp quyền thực thi cho script (bước 3 trong hướng dẫn sử dụng).
 
