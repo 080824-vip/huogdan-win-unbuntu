@@ -26,11 +26,13 @@ Script này giúp bạn cài đặt các công cụ cần thiết và tải xu�
 - Đảm bảo bạn có kết nối internet ổn định trong quá trình chạy script.
 - License key đã được tích hợp sẵn trong script và sẽ được tự động truyền vào TinyInstaller.
 - Nếu gặp bất kỳ vấn đề nào, vui lòng kiểm tra các thông báo lỗi và đảm bảo rằng tất cả các điều kiện tiên quyết đều được đáp ứng.
+- Đảm bảo rằng bạn đã cấp quyền thực thi cho script trước khi chạy (bước 3 trong hướng dẫn sử dụng).
 
 ## Xử lý lỗi
 
 - Nếu script không thể tải xuống TinyInstaller, hãy kiểm tra kết nối internet của bạn và thử lại.
 - Nếu bạn gặp vấn đề với license key, vui lòng liên hệ với quản trị viên để được hỗ trợ.
+- Nếu bạn gặp lỗi "Permission denied" khi chạy script, hãy đảm bảo rằng bạn đã cấp quyền thực thi cho script (bước 3 trong hướng dẫn sử dụng).
 
 ## Hỗ trợ
 
