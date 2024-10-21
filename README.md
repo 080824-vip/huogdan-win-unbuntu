@@ -18,13 +18,13 @@ Script này giúp bạn cài đặt các công cụ cần thiết và tải xu�
    sudo ./setup.sh
    ```
 
-5. Script sẽ tự động kiểm tra và cài đặt các công cụ cần thiết, sau đó tải xuống và chạy trình cài đặt TinyInstaller.
+5. Script sẽ tự động kiểm tra và cài đặt các công cụ cần thiết, sau đó tải xuống và chạy trình cài đặt TinyInstaller với license key đã được cung cấp.
 
 ## Lưu ý
 
 - Script này yêu cầu quyền root để chạy.
 - Đảm bảo bạn có kết nối internet ổn định trong quá trình chạy script.
-- License key đã được tích hợp sẵn trong script, bạn không cần nhập thủ công.
+- License key đã được tích hợp sẵn trong script và sẽ được tự động truyền vào TinyInstaller.
 - Nếu gặp bất kỳ vấn đề nào, vui lòng kiểm tra các thông báo lỗi và đảm bảo rằng tất cả các điều kiện tiên quyết đều được đáp ứng.
 
 ## Xử lý lỗi
