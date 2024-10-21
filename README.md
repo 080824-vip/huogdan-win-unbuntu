@@ -31,9 +31,9 @@ Script này giúp bạn cài đặt các công cụ cần thiết và tải xu�
 ## Xử lý lỗi
 
 - Nếu script không thể tải xuống TinyInstaller, hãy kiểm tra kết nối internet của bạn và thử lại.
-- Nếu bạn gặp vấn đề với license key, vui lòng liên hệ với quản trị viên để được hỗ trợ.
+- Nếu bạn gặp thông báo "You have run out of installations", có nghĩa là bạn đã sử dụng hết số lần cài đặt được phép. Vui lòng liên hệ với quản trị viên để được hỗ trợ và yêu cầu thêm lượt cài đặt.
 - Nếu bạn gặp lỗi "Permission denied" khi chạy script, hãy đảm bảo rằng bạn đã cấp quyền thực thi cho script (bước 3 trong hướng dẫn sử dụng).
 
 ## Hỗ trợ
 
-Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi, vui lòng tạo một issue trong repository này.
+Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi, vui lòng tạo một issue trong repository này hoặc liên hệ trực tiếp với quản trị viên để được hỗ trợ.
