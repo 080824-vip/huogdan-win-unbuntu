@@ -24,13 +24,11 @@ Script này giúp bạn cài đặt các công cụ cần thiết và tải xu�
 
 - Script này yêu cầu quyền root để chạy.
 - Đảm bảo bạn có kết nối internet ổn định trong quá trình chạy script.
-- Script sẽ kiểm tra và thông báo nếu bạn đã hết lượt cài đặt.
 - Nếu gặp bất kỳ vấn đề nào, vui lòng kiểm tra các thông báo lỗi và đảm bảo rằng tất cả các điều kiện tiên quyết đều được đáp ứng.
 
 ## Xử lý lỗi
 
 - Nếu script không thể tải xuống trình cài đặt, hãy kiểm tra kết nối internet của bạn và thử lại.
-- Nếu bạn gặp thông báo "You have run out of installations", có nghĩa là bạn đã sử dụng hết số lần cài đặt được phép. Vui lòng liên hệ với quản trị viên để được hỗ trợ.
 
 ## Hỗ trợ
 
