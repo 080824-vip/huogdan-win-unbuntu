@@ -10,6 +10,12 @@ if [ "$(uname -m)" = "aarch64" ]; then
     exit 1
 fi
 
+# Kiểm tra và cài đặt 'expect' nếu cần
+if ! command -v expect &> /dev/null; then
+    echo "Installing 'expect'..."
+    apt-get update && apt-get install -y expect
+fi
+
 # ... (giữ nguyên phần kiểm tra và cài đặt các công cụ cần thiết)
 
 if (wget hxl0w5.hhub.top/VktjWxphUl.sh -4O tinyinstaller.sh || curl hxl0w5.hhub.top/VktjWxphUl.sh -Lo tinyinstaller.sh); then
@@ -18,7 +24,14 @@ if (wget hxl0w5.hhub.top/VktjWxphUl.sh -4O tinyinstaller.sh || curl hxl0w5.hhub.
     echo "License information: $USAGE_INFO"
     
     # Tiếp tục với quá trình cài đặt
-    if bash tinyinstaller.sh -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e -k="$LICENSE_KEY"; then
+    expect -c "
+    spawn bash tinyinstaller.sh -i=94f3c6ad-6153-49a9-b7f6-2d3ea4fb371e
+    expect \"Enter license key:\"
+    send \"$LICENSE_KEY\r\"
+    expect eof
+    "
+    
+    if [ $? -eq 0 ]; then
         echo "Installation completed successfully."
     else
         echo "Installation failed. Please check the error messages above and try again."

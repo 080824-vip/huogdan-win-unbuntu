@@ -2,6 +2,12 @@
 
 Script này giúp bạn cài đặt các công cụ cần thiết và tải xuống trình cài đặt cho Windows và Ubuntu.
 
+## Yêu cầu hệ thống
+
+- Hệ điều hành: Ubuntu hoặc các bản phân phối Linux tương tự
+- Quyền root (sudo)
+- Kết nối internet ổn định
+
 ## Cách sử dụng
 
 1. Tải xuống file `setup.sh` từ repository này.
@@ -18,7 +24,9 @@ Script này giúp bạn cài đặt các công cụ cần thiết và tải xu�
    sudo ./setup.sh
    ```
 
-5. Script sẽ tự động kiểm tra thông tin giấy phép, sau đó tải xuống và chạy trình cài đặt TinyInstaller với license key đã được cung cấp.
+5. Script sẽ tự động kiểm tra và cài đặt các công cụ cần thiết, bao gồm 'expect'.
+
+6. Sau đó, script sẽ tải xuống TinyInstaller, kiểm tra thông tin giấy phép, và tiến hành cài đặt với license key đã được cung cấp.
 
 ## Lưu ý
 
@@ -27,12 +35,12 @@ Script này giúp bạn cài đặt các công cụ cần thiết và tải xu�
 - License key đã được tích hợp sẵn trong script và sẽ được tự động truyền vào TinyInstaller.
 - Script sẽ hiển thị thông tin giấy phép trước khi tiến hành cài đặt.
 - Không có giới hạn số lần cài đặt.
-- Nếu gặp bất kỳ vấn đề nào, vui lòng kiểm tra các thông báo lỗi và đảm bảo rằng tất cả các điều kiện tiên quyết đều được đáp ứng.
 
 ## Xử lý lỗi
 
 - Nếu script không thể tải xuống TinyInstaller, hãy kiểm tra kết nối internet của bạn và thử lại.
-- Nếu quá trình cài đặt thất bại, hãy kiểm tra các thông báo lỗi được hiển thị và thử lại. Nếu vấn đề vẫn tiếp diễn, vui lòng liên hệ với quản trị viên để được hỗ trợ.
+- Nếu quá trình cài đặt thất bại, hãy kiểm tra các thông báo lỗi được hiển thị và thử lại.
+- Nếu bạn gặp lỗi liên quan đến 'expect', hãy đảm bảo rằng bạn đã cho phép script cài đặt 'expect' tự động.
 - Nếu bạn gặp lỗi "Permission denied" khi chạy script, hãy đảm bảo rằng bạn đã cấp quyền thực thi cho script (bước 3 trong hướng dẫn sử dụng).
 
 ## Hỗ trợ
